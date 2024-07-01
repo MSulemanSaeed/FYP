@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <style>
+        .navbar-default.menu-top {
+            background: transparent;
+            padding: 10px 10px;
+            width: 100%;
+            margin-top: 0px;
+            transition: background 0.3s ease;
+        }
+        .navbar-default.menu-shrink {
+            background: rgba(52, 58, 64, 0.5);
+            /* 52, 58, 64, 0.5 */
+            padding: 10px 10px;
+            width: 100%;
+            margin-top: 0px;
+        }
+        .navbar-nav {
+            width: 100%;
+            justify-content: center;
+            margin-left: -115px;
+        }
+        @media only screen and (max-width: 992px) {
+            .navbar-nav {
+                margin-left: 0 !important;
+            }
+        }
+        .nav-link:hover {
+            font-weight: bold;
+        }
+        </style>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-default menu-top">
+            <a class="navbar-brand" href="{% url 'home' %}">
+                <img src="/static/logo (1).png" alt="MySite Logo" style="height: 70px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="#home" style="font-size: 14px;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#about" style="font-size: 14px;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#products" style="font-size: 14px;">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact" style="font-size: 14px;">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <script>
+            $(window).on('scroll', function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.menu-top').addClass('menu-shrink');
+                } else {
+                    $('.menu-top').removeClass('menu-shrink');
+                }
+            });
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,261 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<Section id="home">
+<div class="pb-5 text-center">
+    <div class="background-overlay">
+    <div class="position-relative" style="background-image: url('/static/background.jpg'); width: 100%; height: 700px; background-repeat: no-repeat; background-size: cover; opacity: 0.5; position: relative;"></div>
+        <div class="container position-absolute d-flex flex-column justify-content-center align-items-center" style="top: 60%; left: 50%; transform: translate(-50%, -50%);">
+            <div class="row">
+                <div class="col-12">
+                    <h1 style="font-size: 50px; font-weight: bold; color:#ffffff;">Rescued Metals</h1>
+                <h1 style="font-size: 50px; font-weight: bold; color:#ffffff">Sustainable Solutions</h1>
+                <p style="font-size: 20px; color:#ffffff; margin-top: 20px;">Discover high-quality iron scrap for all your recycling needs. Contact us today for reliable service and competitive prices.</p>
+                <div class="d-flex justify-content-center mt-4" style="gap: 20px;">
+                <a class="contact-btn" href="#contact">Contact</a>
+                <a class="about-btn" href="#about">About</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</Section>
+
+
+<!--About us section-->
+
+<Section id="about">
+<div class="container">
+        <h1 style="font-weight: bold; text-align: left;">About us</h1>
+    <div class="row mt-5 animate-on-scroll">
+        <div class="col-md-6">
+            <h3 style="font-weight: bold;">Your Reliable Metal Scrap Dealer for Enhanced Sustainability</h3>
+            <p>Established in 2006, INDO NARA METAL W.L.L. is playing a pivotal role in the provision of high-quality metal scraps around the world. Based in Bahrain, we deal with all types of meta scraps, including ferrous and non-ferrous. Recognized as the largest, high-volume metal scrap dealer, we supply a wide range of scrap materials such as Iron scrap HMS 1, HMS 1&2, Aluminum extrusions scrap, Aluminum scrap paint tabor scrap, Aluminum UBC scrap, Aluminum wire scrap, Aluminum tense scrap, Copper wire scrap, plastic regrind blue drum, plastic regrind IBC, used tyre TBR, 3 cut tyre scrap, OCC scrap, and more in bulk quantities. We also deals with Iron ore, Used Stainless steel pipes, Boxite, Cooking coal, Pig iron.</p>
+            <p>Looking for a ‘metal scrap yard near me?’ With Channel Partners and Yards in Bahrain, Europe, Saudi Arabia & USA, we implement environmentally friendly practices to segregate metal scraps with high-quality metal scrap and reducing waste. We also have a more stable and consistent supply of scrap materials, which makes us a reliable source of scrap metal for industrial and commercial operations. As one of the best scrap dealers, we have loading ports in the Middle East, Africa, Europe and USA.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="/static/about.png" alt="Contact Us" class="img-fluid" style="height: 500px; border-radius: 20px;";>
+        </div>
+    </div>
+</div>
+</Section>
+
+
+<!-- Statistics-->
+
+<div class="d-flex justify-content-center mt-5 flex-wrap">
+<div class="d-flex flex-column justify-content-center align-items-center business-banner text-white text-center animate-on-scroll" style="width: 300px; height: 162.58px; background-color: #000435;">
+    <h1 style="font-weight: bold;">2006</h1>
+    <p>Year Eatablished</p>
+</div>
+<div class="d-flex flex-column justify-content-center align-items-center business-banner text-black text-center animate-on-scroll" style="width: 300px; height: 162.58px; background-color: #f2f5f5;">
+    <h1 style="font-weight: bold;">5000K Tons</h1>
+    <p>Scraps Handled</p>
+</div>
+<div class="d-flex flex-column justify-content-center align-items-center business-banner text-white text-center animate-on-scroll" style="width: 300px; height: 162.58px; background-color: #000000;">
+    <h1 style="font-weight: bold;">50+</h1>
+    <p>Partner Yards</p>
+</div>
+<div class="d-flex flex-column justify-content-center align-items-center business-banner text-white text-center animate-on-scroll" style="width: 300px; height: 162.58px; background-color: #000435;">
+    <h1 style="font-weight: bold;">300+</h1>
+    <p>Industrial Clients</p>
+</div>
+</div>
+
+
+
+
+<!-- Products Section -->
+<Section id="products">
+<div class="container my-5" id='home'>
+    <h1 style="font-weight: bold;" class="text-left mb-4">We Deal with</h1>
+    <div class="row">
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top" src="https://indonarametal.com/wp-content/uploads/2023/12/Alu-extruction.webp" alt="Aluminium Extrusions" style="border-radius: 20px 20px 0 0;">
+                <div class="card-body">
+                    <h3 class="card-title">Aluminium Extrusions</h3>
+                    <p class="card-text">INDO NARA METAL W.L.L. offers high-quality Aluminium extrusions with a monthly supply capacity of 300 Tons. We guarantee on-time delivery and competitive pricing.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top" src="https://indonarametal.com/wp-content/uploads/2023/12/Aluminium-Scrap-Taint-Tabor.webp" alt="Aluminium Scrap Taint Tabor" style="border-radius: 20px 20px 0 0;">
+                <div class="card-body ">
+                    <h3 class="card-title">Aluminium Scrap Taint Tabor</h3>
+                    <p class="card-text">High-quality Aluminium scrap taint tabor sourced from recycled Aluminum sheets now available in bulk quantities! We uphold high-quality standards and prioritize quick turnaround.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top" src="https://indonarametal.com/wp-content/uploads/2023/12/Aluminium-UBC.webp" alt="Aluminum UBC Scrap" style="border-radius: 20px 20px 0 0;">
+                <div class="card-body">
+                    <h3 class="card-title">Aluminum UBC Scrap</h3>
+                    <p class="card-text">Aluminum UBC scraps with a material purity of 97 to 99% and a monthly supply of 2000 metric tons ready to ship worldwide. Full transaction assistance and flexible payment options.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top"
+                     src="https://indonarametal.com/wp-content/uploads/2023/12/HMS-2.webp"
+                     alt="Products Image"
+                     style="border-radius: 20px 20px 0 0;"/>
+                <div class="card-body">
+                    <h3 class="card-title">Iron Scrap HMS 1</h3>
+                    <p class="card-text">As renowned scrap metal dealers, we specialize in the export of Iron scrap HMS 1 with a massive monthly quantity of 10,000 metric tons. Contact us for the best deals and offers.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top"
+                     src="https://indonarametal.com/wp-content/uploads/2023/12/Used-Tyre-TBR-1.webp"
+                     alt="Products Image"
+                     style="border-radius: 20px 20px 0 0;"/>
+                <div class="card-body">
+                    <h3 class="card-title">Used Tyre TBR</h3>
+                    <p class="card-text">INDO NARA METAL W.L.L. is a worldwide exporter of the highest quality used tyre TBR with a monthly supply capacity of 2000 metric tons. Free of odor, clean, and safe to handle.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top"
+                     src="https://indonarametal.com/wp-content/uploads/2023/12/plastic-Regrind-Blue-Drum-1.webp"
+                     alt="Products Image"
+                     style="border-radius: 20px 20px 0 0;"/>
+                <div class="card-body">
+                    <h3 class="card-title">Plastic Regrind Blue Drum</h3>
+                    <p class="card-text">Premium quality washed and unwashed HDPE blue drum regrinds are available for purchase, with a capacity of 50 to 100 metric tons per shipment. Medium thickness and best used for grinding.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top" src="https://indonarametal.com/wp-content/uploads/2023/12/Plastic-Regrind-IBC-1.webp" alt="Aluminium Extrusions" style="border-radius: 20px 20px 0 0;">
+                <div class="card-body">
+                    <h3 class="card-title">Plastic Regrind IBC</h3>
+                    <p class="card-text">Recycled plastic regrinds from IBC material! We have washed and unwashed type IBC regrind for bulk purchase on a continuous monthly basis. Share your scrap requirements with us!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top" src="https://indonarametal.com/wp-content/uploads/2023/12/paper.webp" alt="Aluminium Extrusions" style="border-radius: 20px 20px 0 0;">
+                <div class="card-body">
+                    <h3 class="card-title">Paper scrap</h3>
+                    <p class="card-text">Cardboard, newspaper, and old paper scraps are available for sale in bulk quantities! With our own yard in Bahrain, we supply waste paper scrap to buyers all over the world.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3">
+            <div class="card bg-light text-black hov animate-on-scroll" style='height: 500px; border-radius: 20px;'>
+                <img class="card-img-top" src="https://indonarametal.com/wp-content/uploads/2023/12/OCC-Scrap.webp" alt="Aluminium Extrusions" style="border-radius: 20px 20px 0 0;">
+                <div class="card-body">
+                    <h3 class="card-title">OCC Scrap</h3>
+                    <p class="card-text">Efficient, reliable, and prompt export of OCC scrap worldwide in bulk shipments! We bring you the best quality OCC scrap that aligns with your recycling and manufacturing needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+<!-- Why Choose Us Section -->
+<Section>
+<div class="container my-5">
+  <h1 style="font-weight: bold;" class="text-left mb-4">Why Choose Us</h1>
+  <div class="row">
+      <div class="col-md-4 mb-4">
+          <div class="card animate-on-scroll" style='height: 300px'>
+              <div class="card-body text-center bg-light">
+                <div style="width:40px" class="mx-auto my-2"><svg aria-hidden="true" class="e-font-icon-svg e-fas-award" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M97.12 362.63c-8.69-8.69-4.16-6.24-25.12-11.85-9.51-2.55-17.87-7.45-25.43-13.32L1.2 448.7c-4.39 10.77 3.81 22.47 15.43 22.03l52.69-2.01L105.56 507c8 8.44 22.04 5.81 26.43-4.96l52.05-127.62c-10.84 6.04-22.87 9.58-35.31 9.58-19.5 0-37.82-7.59-51.61-21.37zM382.8 448.7l-45.37-111.24c-7.56 5.88-15.92 10.77-25.43 13.32-21.07 5.64-16.45 3.18-25.12 11.85-13.79 13.78-32.12 21.37-51.62 21.37-12.44 0-24.47-3.55-35.31-9.58L252 502.04c4.39 10.77 18.44 13.4 26.43 4.96l36.25-38.28 52.69 2.01c11.62.44 19.82-11.27 15.43-22.03zM263 340c15.28-15.55 17.03-14.21 38.79-20.14 13.89-3.79 24.75-14.84 28.47-28.98 7.48-28.4 5.54-24.97 25.95-45.75 10.17-10.35 14.14-25.44 10.42-39.58-7.47-28.38-7.48-24.42 0-52.83 3.72-14.14-.25-29.23-10.42-39.58-20.41-20.78-18.47-17.36-25.95-45.75-3.72-14.14-14.58-25.19-28.47-28.98-27.88-7.61-24.52-5.62-44.95-26.41-10.17-10.35-25-14.4-38.89-10.61-27.87 7.6-23.98 7.61-51.9 0-13.89-3.79-28.72.25-38.89 10.61-20.41 20.78-17.05 18.8-44.94 26.41-13.89 3.79-24.75 14.84-28.47 28.98-7.47 28.39-5.54 24.97-25.95 45.75-10.17 10.35-14.15 25.44-10.42 39.58 7.47 28.36 7.48 24.4 0 52.82-3.72 14.14.25 29.23 10.42 39.59 20.41 20.78 18.47 17.35 25.95 45.75 3.72 14.14 14.58 25.19 28.47 28.98C104.6 325.96 106.27 325 121 340c13.23 13.47 33.84 15.88 49.74 5.82a39.676 39.676 0 0 1 42.53 0c15.89 10.06 36.5 7.65 49.73-5.82zM97.66 175.96c0-53.03 42.24-96.02 94.34-96.02s94.34 42.99 94.34 96.02-42.24 96.02-94.34 96.02-94.34-42.99-94.34-96.02z"></path></svg></div>
+                  <h5 class="card-title" style="font-weight: bold;">Quality Material</h5>
+                  <p class="card-text">INDO NARA METAL W.L.L., one of the best scrap metal haulers, is committed to supplying only the best quality metal scraps at competitive prices.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="card animate-on-scroll" style='height: 300px'>
+              <div class="card-body text-center bg-light">
+                <div style="width:40px" class="mx-auto my-2"><svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path></svg></div>
+                  <h5 class="card-title" style="font-weight: bold;">Accredited</h5>
+                  <p class="card-text">We are a certified supplier and exporter of premium quality metal scraps of all grades, dedicated to delivering unparalleled service and exceeding industry standards.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="card animate-on-scroll" style='height: 300px'>
+              <div class="card-body text-center bg-light">
+                <div style="width:40px" class="mx-auto my-2"><svg aria-hidden="true" class="e-font-icon-svg e-far-user" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg></div>
+                  <h5 class="card-title" style="font-weight: bold;">Trained Workers</h5>
+                  <p class="card-text">Our employees are trained to employ the latest techniques and machinery. We ensure that our scrap yard delivers premium-grade materials adhering to the environmental guidelines.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="card animate-on-scroll" style='height: 300px'>
+              <div class="card-body text-center bg-light">
+                <div style="width:40px" class="mx-auto my-2"><svg aria-hidden="true" class="e-font-icon-svg e-far-clock" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg></div>
+                  <h5 class="card-title" style="font-weight: bold;">Operating Hours</h5>
+                  <p class="card-text">We are available from</p>
+                  <p> 11.00 am to 3.00 pm Monday to Friday</p>
+                  <p> 11.00 am to 1.00 pm Saturday and Sunday</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="card animate-on-scroll" style='height: 300px'>
+              <div class="card-body text-center bg-light">
+                <div style="width:30px" class="mx-auto my-2"><svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-volume" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M97.333 506.966c-129.874-129.874-129.681-340.252 0-469.933 5.698-5.698 14.527-6.632 21.263-2.422l64.817 40.513a17.187 17.187 0 0 1 6.849 20.958l-32.408 81.021a17.188 17.188 0 0 1-17.669 10.719l-55.81-5.58c-21.051 58.261-20.612 122.471 0 179.515l55.811-5.581a17.188 17.188 0 0 1 17.669 10.719l32.408 81.022a17.188 17.188 0 0 1-6.849 20.958l-64.817 40.513a17.19 17.19 0 0 1-21.264-2.422zM247.126 95.473c11.832 20.047 11.832 45.008 0 65.055-3.95 6.693-13.108 7.959-18.718 2.581l-5.975-5.726c-3.911-3.748-4.793-9.622-2.261-14.41a32.063 32.063 0 0 0 0-29.945c-2.533-4.788-1.65-10.662 2.261-14.41l5.975-5.726c5.61-5.378 14.768-4.112 18.718 2.581zm91.787-91.187c60.14 71.604 60.092 175.882 0 247.428-4.474 5.327-12.53 5.746-17.552.933l-5.798-5.557c-4.56-4.371-4.977-11.529-.93-16.379 49.687-59.538 49.646-145.933 0-205.422-4.047-4.85-3.631-12.008.93-16.379l5.798-5.557c5.022-4.813 13.078-4.394 17.552.933zm-45.972 44.941c36.05 46.322 36.108 111.149 0 157.546-4.39 5.641-12.697 6.251-17.856 1.304l-5.818-5.579c-4.4-4.219-4.998-11.095-1.285-15.931 26.536-34.564 26.534-82.572 0-117.134-3.713-4.836-3.115-11.711 1.285-15.931l5.818-5.579c5.159-4.947 13.466-4.337 17.856 1.304z"></path></svg></div>
+                  <h5 class="card-title" style="font-weight: bold;">Quick Response</h5>
+                  <p class="card-text">Our dedicated professionals provide quick responses to all your inquiries. Feel free to contact us with your queries and doubts.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4 mb-4">
+          <div class="card animate-on-scroll" style='height: 300px'>
+              <div class="card-body text-center bg-light">
+                <div style="width:40px" class="mx-auto my-2"><svg aria-hidden="true" class="e-font-icon-svg e-fas-ship" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg"><path d="M496.616 372.639l70.012-70.012c16.899-16.9 9.942-45.771-12.836-53.092L512 236.102V96c0-17.673-14.327-32-32-32h-64V24c0-13.255-10.745-24-24-24H248c-13.255 0-24 10.745-24 24v40h-64c-17.673 0-32 14.327-32 32v140.102l-41.792 13.433c-22.753 7.313-29.754 36.173-12.836 53.092l70.012 70.012C125.828 416.287 85.587 448 24 448c-13.255 0-24 10.745-24 24v16c0 13.255 10.745 24 24 24 61.023 0 107.499-20.61 143.258-59.396C181.677 487.432 216.021 512 256 512h128c39.979 0 74.323-24.568 88.742-59.396C508.495 491.384 554.968 512 616 512c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24-60.817 0-101.542-31.001-119.384-75.361zM192 128h256v87.531l-118.208-37.995a31.995 31.995 0 0 0-19.584 0L192 215.531V128z"></path></svg></div>
+                  <h5 class="card-title" style="font-weight: bold;">On-time Shipment</h5>
+                  <p class="card-text">We are a certified supplier and exporter of premium quality metal scraps of all grades, committed to providing a convenient and swift turnaround for your scrap metal needs.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</Section>
+
+
+
+<!-- Contact Form Section -->
+
+<Section id="contact">
+    <div class="container mt-5">
+        <div class="row animate-on-scroll">
+            <div class="col-md-12 py-3 border">
+        <h1 style="font-weight: bold;" class="text-left mb-4">Contact us</h1>
+                <form method="post" class="needs-validation mt-3" novalidate>
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+            </div>
+          
+        </div>
+    </div>
+    </Section>
+
+
+{% endblock %}
